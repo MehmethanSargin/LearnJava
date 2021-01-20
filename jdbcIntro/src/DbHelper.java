@@ -3,9 +3,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DbHelper {
-    static String userName = "root";
-    static String password = "12345";
-    static String dbUrl = "jdbc:mysql://localhost:3306/world?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+    static String userName = "";
+    static String password = "";
+    static String dbUrl = ";
 
 
     public Connection getConnection() throws SQLException{
