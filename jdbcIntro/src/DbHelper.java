@@ -5,7 +5,7 @@ import java.sql.SQLException;
 public class DbHelper {
     static String userName = "";
     static String password = "";
-    static String dbUrl = ";
+    static String dbUrl = "";
 
 
     public Connection getConnection() throws SQLException{
